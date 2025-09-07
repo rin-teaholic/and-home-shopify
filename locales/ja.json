@@ -22,13 +22,10 @@
       "submit": "購読する",
       "confirmation": "ありがとうございます！"
     },
-    "accessibility": {
-      "skip_to_text": "コンテンツにスキップ",
-      "refresh_page": "ページを更新して新しいコンテンツを読み込む",
-      "link_messages": {
-        "new_window": "新しいウィンドウで開きます"
-      },
-      "loading": "読み込み中..."
+    "cart": {
+      "item_added": "カートに商品を追加しました",
+      "view_cart": "カートを見る",
+      "checkout": "チェックアウト"
     }
   },
   "sections": {
@@ -68,5 +65,18 @@
   "customer": {
     "account_fallback": "アカウント",
     "log_in": "ログイン"
+  },
+  "accessibility": {
+    "skip_to_text": "コンテンツにスキップ",
+    "refresh_page": "ページを更新して新しいコンテンツを読み込む",
+    "link_messages": {
+      "new_window": "新しいウィンドウで開きます"
+    },
+    "loading": "読み込み中...",
+    "close": "閉じる"
+  },
+  "localization": {
+    "country_label": "国/地域",
+    "language_label": "言語"
   }
 }

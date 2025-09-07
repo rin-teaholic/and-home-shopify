@@ -11,7 +11,7 @@
     <div class="cart-notification__content">
       <div class="cart-notification__product">
         <div class="cart-notification__product-image">
-          <img src="{{ cart.items.first.image | image_url: width: 100 }}" alt="{{ cart.items.first.image.alt | escape }}" loading="lazy">
+          <img src="{{ cart.items.first.image | image_url: width: 100 }}" alt="{{ cart.items.first.image.alt | escape }}" width="100" height="100" loading="lazy">
         </div>
         <div class="cart-notification__product-info">
           <h3 class="cart-notification__product-name">{{ cart.items.first.product.title }}</h3>

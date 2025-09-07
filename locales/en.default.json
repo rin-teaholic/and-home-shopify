@@ -22,13 +22,10 @@
       "submit": "Subscribe",
       "confirmation": "Thank you!"
     },
-    "accessibility": {
-      "skip_to_text": "Skip to content",
-      "refresh_page": "Refresh page to load new content",
-      "link_messages": {
-        "new_window": "Opens in a new window"
-      },
-      "loading": "Loading..."
+    "cart": {
+      "item_added": "Item added to your cart",
+      "view_cart": "View cart",
+      "checkout": "Check out"
     }
   },
   "sections": {
@@ -68,6 +65,15 @@
   "customer": {
     "account_fallback": "Account",
     "log_in": "Log in"
+  },
+  "accessibility": {
+    "skip_to_text": "Skip to content",
+    "refresh_page": "Refresh page to load new content",
+    "link_messages": {
+      "new_window": "Opens in a new window"
+    },
+    "loading": "Loading...",
+    "close": "Close"
   },
   "localization": {
     "country_label": "Country/Region",
