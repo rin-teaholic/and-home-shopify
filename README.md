@@ -32,7 +32,7 @@ npm install
 # 開発サーバーを起動
 npm run dev
 
-# テーマをビルド
+# テーマのコードチェック（ビルドの代わり）
 npm run build
 
 # Shopifyにデプロイ

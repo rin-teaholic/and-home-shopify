@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "shopify theme dev",
-    "build": "shopify theme build",
+    "build": "shopify theme check",
     "deploy": "shopify theme push",
     "check": "shopify theme check",
     "lint": "eslint assets/*.js",
