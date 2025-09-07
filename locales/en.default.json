@@ -68,5 +68,9 @@
   "customer": {
     "account_fallback": "Account",
     "log_in": "Log in"
+  },
+  "localization": {
+    "country_label": "Country/Region",
+    "language_label": "Language"
   }
 }

@@ -1,0 +1,27 @@
+<div class="cart-notification-wrapper">
+  <div class="cart-notification" id="cart-notification" aria-modal="true" aria-label="{{ 'general.cart.item_added' | t }}" role="dialog">
+    <div class="cart-notification__header">
+      <h2 class="cart-notification__heading">{{ 'general.cart.item_added' | t }}</h2>
+      <button class="cart-notification__close modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
+        <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
+          <use href="#icon-close">
+        </svg>
+      </button>
+    </div>
+    <div class="cart-notification__content">
+      <div class="cart-notification__product">
+        <div class="cart-notification__product-image">
+          <img src="{{ cart.items.first.image | image_url: width: 100 }}" alt="{{ cart.items.first.image.alt | escape }}" loading="lazy">
+        </div>
+        <div class="cart-notification__product-info">
+          <h3 class="cart-notification__product-name">{{ cart.items.first.product.title }}</h3>
+          <p class="cart-notification__product-price">{{ cart.items.first.price | money }}</p>
+        </div>
+      </div>
+      <div class="cart-notification__actions">
+        <a href="{{ routes.cart_url }}" class="button button--secondary">{{ 'general.cart.view_cart' | t }}</a>
+        <a href="{{ routes.checkout_url }}" class="button button--primary">{{ 'general.cart.checkout' | t }}</a>
+      </div>
+    </div>
+  </div>
+</div>
