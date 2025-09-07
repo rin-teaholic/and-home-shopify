@@ -1,0 +1,72 @@
+{
+  "general": {
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
+    "search": {
+      "search": "Search"
+    },
+    "share": {
+      "success_message": "Link copied to clipboard"
+    },
+    "404": {
+      "title": "Page not found",
+      "subtext": "The page you were looking for does not exist."
+    },
+    "breadcrumbs": {
+      "home": "Home"
+    },
+    "newsletter_form": {
+      "newsletter_email": "Email",
+      "submit": "Subscribe",
+      "confirmation": "Thank you!"
+    },
+    "accessibility": {
+      "skip_to_text": "Skip to content",
+      "refresh_page": "Refresh page to load new content",
+      "link_messages": {
+        "new_window": "Opens in a new window"
+      },
+      "loading": "Loading..."
+    }
+  },
+  "sections": {
+    "header": {
+      "announcement": "Announcement",
+      "menu": "Menu",
+      "cart_count": "Cart ({{ count }})"
+    },
+    "footer": {
+      "payment": "Payment methods"
+    },
+    "cart": {
+      "cart_error": "Error occurred",
+      "cart_quantity_error_html": "Could not update the quantity to {{ quantity }}"
+    },
+    "slideshow": {
+      "pause_slideshow": "Pause slideshow",
+      "play_slideshow": "Play slideshow"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Add to cart",
+      "sold_out": "Sold out",
+      "unavailable": "Unavailable",
+      "value_unavailable": "{{ value }} is unavailable",
+      "media": {
+        "image_available": "Image {{ index }} is available"
+      }
+    }
+  },
+  "templates": {
+    "cart": {
+      "cart": "Cart"
+    }
+  },
+  "customer": {
+    "account_fallback": "Account",
+    "log_in": "Log in"
+  }
+}

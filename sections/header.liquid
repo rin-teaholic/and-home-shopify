@@ -1,9 +1,4 @@
 {%- liquid
-  assign sticky_header = false
-  if settings.sticky_header_type == 'always' or settings.sticky_header_type == 'reduce-logo-size'
-    assign sticky_header = true
-  endif
-
   assign menu = linklists[section.settings.menu]
 -%}
 
