@@ -1,0 +1,72 @@
+{
+  "general": {
+    "meta": {
+      "tags": "タグ: {{ tags }}",
+      "page": "ページ {{ page }}"
+    },
+    "search": {
+      "search": "検索"
+    },
+    "share": {
+      "success_message": "リンクがクリップボードにコピーされました"
+    },
+    "404": {
+      "title": "ページが見つかりません",
+      "subtext": "お探しのページは見つかりませんでした。"
+    },
+    "breadcrumbs": {
+      "home": "ホーム"
+    },
+    "newsletter_form": {
+      "newsletter_email": "メールアドレス",
+      "submit": "購読する",
+      "confirmation": "ありがとうございます！"
+    },
+    "accessibility": {
+      "skip_to_text": "コンテンツにスキップ",
+      "refresh_page": "ページを更新して新しいコンテンツを読み込む",
+      "link_messages": {
+        "new_window": "新しいウィンドウで開きます"
+      },
+      "loading": "読み込み中..."
+    }
+  },
+  "sections": {
+    "header": {
+      "announcement": "お知らせ",
+      "menu": "メニュー",
+      "cart_count": "カート ({{ count }})"
+    },
+    "footer": {
+      "payment": "支払い方法"
+    },
+    "cart": {
+      "cart_error": "エラーが発生しました",
+      "cart_quantity_error_html": "数量を {{ quantity }} 個に変更できませんでした"
+    },
+    "slideshow": {
+      "pause_slideshow": "スライドショーを一時停止",
+      "play_slideshow": "スライドショーを再生"
+    }
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "カートに追加",
+      "sold_out": "売り切れ",
+      "unavailable": "利用不可",
+      "value_unavailable": "{{ value }} は利用できません",
+      "media": {
+        "image_available": "画像 {{ index }} が利用可能"
+      }
+    }
+  },
+  "templates": {
+    "cart": {
+      "cart": "カート"
+    }
+  },
+  "customer": {
+    "account_fallback": "アカウント",
+    "log_in": "ログイン"
+  }
+}

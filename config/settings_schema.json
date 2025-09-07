@@ -1,0 +1,53 @@
+{
+  "name": "&home",
+  "version": "1.0.0",
+  "description": "暮らしにプラスする家具のECサイト",
+  "author": "&home",
+  "theme_version": "3.0.0",
+  "settings": [
+    {
+      "type": "header",
+      "content": "ブランド設定"
+    },
+    {
+      "type": "text",
+      "id": "brand_name",
+      "label": "ブランド名",
+      "default": "&home"
+    },
+    {
+      "type": "textarea",
+      "id": "brand_description",
+      "label": "ブランド説明",
+      "default": "暮らしに「プラス」する家具"
+    },
+    {
+      "type": "header",
+      "content": "カラーテーマ"
+    },
+    {
+      "type": "color",
+      "id": "primary_color",
+      "label": "プライマリーカラー",
+      "default": "#2c3e50"
+    },
+    {
+      "type": "color",
+      "id": "secondary_color",
+      "label": "セカンダリーカラー",
+      "default": "#e74c3c"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "背景色",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "テキスト色",
+      "default": "#333333"
+    }
+  ]
+}
